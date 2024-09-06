@@ -44,7 +44,7 @@ namespace DICOMSEND
             UploadButton.Enabled = false;
             totalfiles = 0;
             successfulfiles = 0;
-            ConsoleBox.Text = "Start uploading...";
+            ConsoleBox.Text = "Uploading...";
             var skippattern = new Regex(@"(?:DICOMDIR|\.(?:jpg|jpeg|png|gif|exe|inf|htm|html|js|bat|dll|css|ini|txt|doc|pdf))$", RegexOptions.Compiled | RegexOptions.IgnoreCase);
 
             string AET = AETBox.Text;
@@ -81,7 +81,7 @@ namespace DICOMSEND
                 }
                 if (!DicomFile.HasValidHeader(filename))
                 {
-                    WriteLog(filename + ": not valid");
+                    WriteLog("[!] "+ filename + " is not valid");
                     addTotal();
                     settextCount();
                     continue;
@@ -95,35 +95,35 @@ namespace DICOMSEND
                 }
                 catch (Exception error)
                 {
-                    WriteLog(filename + ": opening error");
+                    WriteLog("[!] Error opening " + filename);
                     addTotal();
                     settextCount();
                     continue;
                 }
                 if (file == null)
                 {
-                    WriteLog(filename + ": file is null");
+                    WriteLog("[!] " + filename + " is null");
                     addTotal();
                     settextCount();
                     continue;
                 }
                 if (file.IsPartial)
                 {
-                    WriteLog(filename + ": is partial");
+                    WriteLog("[!] " + filename + " is partial");
                     addTotal();
                     settextCount();
                     continue;
                 }
                 if (file.Format != DicomFileFormat.DICOM3)
                 {
-                    WriteLog(filename + ": not valid");
+                    WriteLog("[!] " + filename + " is not a valid DICOM file");
                     addTotal();
                     settextCount();
                     continue;
                 }
                 if (!file.Dataset.Contains(DicomTag.PixelData))
                 {
-                    WriteLog(filename + ": not image file");
+                    WriteLog("[!] " + filename + " is not an image file");
                     addTotal();
                     settextCount();
                     continue;
@@ -168,8 +168,8 @@ namespace DICOMSEND
             //}
 
             UploadButton.Enabled = true;
-            WriteLog("...Uploaded");
-            MessageBox.Show("Uploaded");
+            WriteLog("Finished uploading");
+            MessageBox.Show("Uploaded!");
 
             // Console.ReadKey();
         }

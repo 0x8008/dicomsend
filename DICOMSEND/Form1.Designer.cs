@@ -54,10 +54,10 @@ namespace DICOMSEND
             this.UploadButton.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.UploadButton.Font = new System.Drawing.Font("MS UI Gothic", 12F);
-            this.UploadButton.Location = new System.Drawing.Point(654, 18);
+            this.UploadButton.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.UploadButton.Location = new System.Drawing.Point(654, 20);
             this.UploadButton.Name = "UploadButton";
-            this.UploadButton.Size = new System.Drawing.Size(100, 61);
+            this.UploadButton.Size = new System.Drawing.Size(100, 66);
             this.UploadButton.TabIndex = 8;
             this.UploadButton.TabStop = false;
             this.UploadButton.Text = "Upload";
@@ -69,89 +69,89 @@ namespace DICOMSEND
             this.ConsoleBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.ConsoleBox.Font = new System.Drawing.Font("MS UI Gothic", 12F);
-            this.ConsoleBox.Location = new System.Drawing.Point(12, 137);
+            this.ConsoleBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ConsoleBox.Location = new System.Drawing.Point(12, 148);
             this.ConsoleBox.MaxLength = 2147483647;
             this.ConsoleBox.Multiline = true;
             this.ConsoleBox.Name = "ConsoleBox";
             this.ConsoleBox.ReadOnly = true;
             this.ConsoleBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.ConsoleBox.Size = new System.Drawing.Size(760, 322);
+            this.ConsoleBox.Size = new System.Drawing.Size(760, 348);
             this.ConsoleBox.TabIndex = 5;
             this.ConsoleBox.TabStop = false;
             // 
             // FolderButton
             // 
-            this.FolderButton.Font = new System.Drawing.Font("MS UI Gothic", 12F);
-            this.FolderButton.Location = new System.Drawing.Point(6, 18);
+            this.FolderButton.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FolderButton.Location = new System.Drawing.Point(6, 20);
             this.FolderButton.Name = "FolderButton";
-            this.FolderButton.Size = new System.Drawing.Size(85, 27);
+            this.FolderButton.Size = new System.Drawing.Size(85, 29);
             this.FolderButton.TabIndex = 0;
             this.FolderButton.TabStop = false;
-            this.FolderButton.Text = "Folder";
+            this.FolderButton.Text = "Folder\r\n";
             this.FolderButton.UseVisualStyleBackColor = true;
             this.FolderButton.Click += new System.EventHandler(this.FolderButton_Click);
             // 
             // FolderPathBox
             // 
-            this.FolderPathBox.Font = new System.Drawing.Font("MS UI Gothic", 15F);
-            this.FolderPathBox.Location = new System.Drawing.Point(97, 18);
+            this.FolderPathBox.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.FolderPathBox.Location = new System.Drawing.Point(97, 20);
             this.FolderPathBox.Name = "FolderPathBox";
-            this.FolderPathBox.Size = new System.Drawing.Size(374, 27);
+            this.FolderPathBox.Size = new System.Drawing.Size(374, 22);
             this.FolderPathBox.TabIndex = 1;
             // 
             // LabelHost
             // 
             this.LabelHost.AutoSize = true;
-            this.LabelHost.Font = new System.Drawing.Font("MS UI Gothic", 12F);
-            this.LabelHost.Location = new System.Drawing.Point(7, 57);
+            this.LabelHost.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.LabelHost.Location = new System.Drawing.Point(12, 61);
             this.LabelHost.Name = "LabelHost";
-            this.LabelHost.Size = new System.Drawing.Size(39, 16);
+            this.LabelHost.Size = new System.Drawing.Size(34, 16);
             this.LabelHost.TabIndex = 4;
             this.LabelHost.Text = "Host";
             // 
             // HostBox
             // 
-            this.HostBox.Font = new System.Drawing.Font("MS UI Gothic", 15F);
-            this.HostBox.Location = new System.Drawing.Point(52, 51);
+            this.HostBox.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.HostBox.Location = new System.Drawing.Point(52, 55);
             this.HostBox.Name = "HostBox";
-            this.HostBox.Size = new System.Drawing.Size(138, 27);
+            this.HostBox.Size = new System.Drawing.Size(138, 22);
             this.HostBox.TabIndex = 3;
             // 
             // LablePort
             // 
             this.LablePort.AutoSize = true;
-            this.LablePort.Font = new System.Drawing.Font("MS UI Gothic", 12F);
-            this.LablePort.Location = new System.Drawing.Point(196, 57);
+            this.LablePort.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.LablePort.Location = new System.Drawing.Point(203, 61);
             this.LablePort.Name = "LablePort";
-            this.LablePort.Size = new System.Drawing.Size(38, 16);
+            this.LablePort.Size = new System.Drawing.Size(31, 16);
             this.LablePort.TabIndex = 4;
             this.LablePort.Text = "Port";
             // 
             // PortBox
             // 
-            this.PortBox.Font = new System.Drawing.Font("MS UI Gothic", 15F);
-            this.PortBox.Location = new System.Drawing.Point(240, 51);
+            this.PortBox.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.PortBox.Location = new System.Drawing.Point(240, 55);
             this.PortBox.Name = "PortBox";
-            this.PortBox.Size = new System.Drawing.Size(59, 27);
+            this.PortBox.Size = new System.Drawing.Size(59, 22);
             this.PortBox.TabIndex = 4;
             // 
             // LabelAEC
             // 
             this.LabelAEC.AutoSize = true;
-            this.LabelAEC.Font = new System.Drawing.Font("MS UI Gothic", 12F);
-            this.LabelAEC.Location = new System.Drawing.Point(477, 57);
+            this.LabelAEC.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.LabelAEC.Location = new System.Drawing.Point(481, 61);
             this.LabelAEC.Name = "LabelAEC";
-            this.LabelAEC.Size = new System.Drawing.Size(38, 16);
+            this.LabelAEC.Size = new System.Drawing.Size(34, 16);
             this.LabelAEC.TabIndex = 4;
             this.LabelAEC.Text = "AEC";
             // 
             // AECBox
             // 
-            this.AECBox.Font = new System.Drawing.Font("MS UI Gothic", 15F);
-            this.AECBox.Location = new System.Drawing.Point(521, 51);
+            this.AECBox.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.AECBox.Location = new System.Drawing.Point(521, 55);
             this.AECBox.Name = "AECBox";
-            this.AECBox.Size = new System.Drawing.Size(121, 27);
+            this.AECBox.Size = new System.Drawing.Size(121, 22);
             this.AECBox.TabIndex = 6;
             // 
             // groupBox1
@@ -171,46 +171,46 @@ namespace DICOMSEND
             this.groupBox1.Controls.Add(this.LabelHost);
             this.groupBox1.Controls.Add(this.LablePort);
             this.groupBox1.Controls.Add(this.HostBox);
-            this.groupBox1.Location = new System.Drawing.Point(12, 12);
+            this.groupBox1.Location = new System.Drawing.Point(12, 13);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(760, 87);
+            this.groupBox1.Size = new System.Drawing.Size(760, 94);
             this.groupBox1.TabIndex = 6;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Config";
             // 
             // IDBox
             // 
-            this.IDBox.Font = new System.Drawing.Font("MS UI Gothic", 15F);
-            this.IDBox.Location = new System.Drawing.Point(521, 18);
+            this.IDBox.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.IDBox.Location = new System.Drawing.Point(521, 20);
             this.IDBox.Name = "IDBox";
-            this.IDBox.Size = new System.Drawing.Size(121, 27);
+            this.IDBox.Size = new System.Drawing.Size(121, 22);
             this.IDBox.TabIndex = 2;
             // 
             // AETBox
             // 
-            this.AETBox.Font = new System.Drawing.Font("MS UI Gothic", 15F);
-            this.AETBox.Location = new System.Drawing.Point(350, 51);
+            this.AETBox.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.AETBox.Location = new System.Drawing.Point(350, 55);
             this.AETBox.Name = "AETBox";
-            this.AETBox.Size = new System.Drawing.Size(121, 27);
+            this.AETBox.Size = new System.Drawing.Size(121, 22);
             this.AETBox.TabIndex = 5;
             // 
             // labelPatientID
             // 
             this.labelPatientID.AutoSize = true;
-            this.labelPatientID.Font = new System.Drawing.Font("MS UI Gothic", 12F);
-            this.labelPatientID.Location = new System.Drawing.Point(477, 24);
+            this.labelPatientID.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.labelPatientID.Location = new System.Drawing.Point(492, 23);
             this.labelPatientID.Name = "labelPatientID";
-            this.labelPatientID.Size = new System.Drawing.Size(22, 16);
+            this.labelPatientID.Size = new System.Drawing.Size(19, 16);
             this.labelPatientID.TabIndex = 4;
             this.labelPatientID.Text = "ID";
             // 
             // LabelAET
             // 
             this.LabelAET.AutoSize = true;
-            this.LabelAET.Font = new System.Drawing.Font("MS UI Gothic", 12F);
-            this.LabelAET.Location = new System.Drawing.Point(306, 57);
+            this.LabelAET.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.LabelAET.Location = new System.Drawing.Point(312, 61);
             this.LabelAET.Name = "LabelAET";
-            this.LabelAET.Size = new System.Drawing.Size(36, 16);
+            this.LabelAET.Size = new System.Drawing.Size(32, 16);
             this.LabelAET.TabIndex = 4;
             this.LabelAET.Text = "AET";
             // 
@@ -218,7 +218,7 @@ namespace DICOMSEND
             // 
             this.LabelCount.AutoSize = true;
             this.LabelCount.Font = new System.Drawing.Font("MS UI Gothic", 15F);
-            this.LabelCount.Location = new System.Drawing.Point(18, 110);
+            this.LabelCount.Location = new System.Drawing.Point(18, 119);
             this.LabelCount.Name = "LabelCount";
             this.LabelCount.Size = new System.Drawing.Size(0, 20);
             this.LabelCount.TabIndex = 7;
@@ -226,15 +226,16 @@ namespace DICOMSEND
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(780, 471);
+            this.ClientSize = new System.Drawing.Size(780, 510);
             this.Controls.Add(this.LabelCount);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.ConsoleBox);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
-            this.Text = "DICOM Upload";
+            this.ShowIcon = false;
+            this.Text = "DICOM Uploader";
             this.Load += new System.EventHandler(this.Form1_Load_1);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
